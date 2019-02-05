@@ -190,8 +190,10 @@
         // geometry = new THREE.IcosahedronGeometry(.3, 0); //edit scale (in this code a scale of 1 = size of target image)
         // var material	= new THREE.MeshNormalMaterial(); 
         // var mesh	= new THREE.Mesh( geometry, material );
-        // mesh.position.y	= 0.5 //position y equals how far away from target 
-        // arWorldRoot.add( mesh ); //instead of adding mesh to the scene right away we add only when the target is detected
+        
+        //KEEP THESE TWO LINES WHEN ADDING CODE FROM PLAYGROUND
+        mesh.position.y	= 0.5 //position y equals how far away from target 
+        arWorldRoot.add( mesh ); //instead of adding mesh to the scene right away we add only when the target is detected
         //end icosphere code
         ///////////////////////////////////////////////////////////
         geometry = new THREE.TorusKnotGeometry(136.88, 39.82, 64, 19, 4.49, 6.01, 1.46);
