@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="responsivetopnav.css">
+  <link rel="stylesheet" href="imagesvid.css">
+  <link rel="stylesheet" href="fontformat.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+
+
+<body>
+<!-- Top Navigation Menu -->
+    <div class="topnav" id="myTopnav">
+    <a href="index.html">Norka | akroN</a>
+    <a href="webdev.html">Web Design</a>
+    <a href="videoedit.html">Digital Video</a>
+    <a href="illustration.html">Illustration</a>
+    <a href="animation.html" class="active">Animation</a>
+    <a href="photography.html">Photography</a>
+    <!-- <a href="spatial.html">Spatial</a> -->
+    <a href="shows.html">Shows</a>
+    <a href="bio.html">Bio</a>
+    <a href="contact2.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+    <div class="jumbotron text-center">
+      <h1>Animation</h1>
+      <h4>I work with both traditional and 3d animation.</h4>
+    </div>
+
+  <div>
+    <div class="row">
+        <div class="column">
+           
+          <a href="https://youtu.be/aDHz3sHvKIU">
+            <img class="img-responsive" src="images/alien.JPG" alt="Alien" style="width:510px;height:300px;">
+          </a>
+          <h4>Alien Appearance</h4>
+          <p>On a magical planet a sillly worm appears out of a green plants.</p>
+
+          <a href="https://youtu.be/xeEj4BjhiPQ">
+            <img class="img-responsive" src="images/weep.JPG" alt="Weeping" style="width:510px;height:300px;">
+          </a>
+          <h4>Weeping</h4>
+          <p>Women often feel the need to hide their feelings otherwise they will be 
+          labeled as being a “typical overly emotional woman.” This is especially true in the workplace 
+          and as a result women often try to completely hide their emotional responses 
+          to prevent being looked down upon for being weak and losing their credibility. 
+          However if women cover up their emotions too much they could be viewed as 
+          apathetic and uninterested. So women have to create a delicate balance, 
+          this balancing act can in itself be stressful. How can one show the appropriate 
+          amount of passion without seeming overly emotional?</p>
+        </div>
+
+        <div class="column">
+          <a href="https://youtu.be/fHvCmHni4I0">
+            <img class="img-responsive" src="images/medusa.JPG" alt="Medusa" style="width:510px;height:300px;">
+          </a>
+          <h4>Medusa's Glitch</h4>
+          <p>
+            Medusa possessed great beauty and many men lusted after her. However she longed to become a priestess in Athena’s temple so she preserved her virginity out of respect to Athena. However Athena soon grew jealous of Medusa. One day Poseidon noticed Medusa and made advances towards her; Medusa denied all of his advances out of loyalty to Athena. He then decided to take her by force. Medusa ran to Athena’s temple for help, however no help was given. After Poseidon had raped Medusa, Athena appeared infuriated and it was then that she cursed Medusa. Her beautiful hair that she once envied was turned into snakes and anybody that looked into her eyes would be turned to stone. Medusa is often viewed as a monster but she actually had good intentions and was punished for something out of her control.<br>
+
+            <p>In my interpretation I have Medusa glitched because I am demonstrating the disruption that occurs in the psychological mind of the victim when a rape has taken place. Medusa is often known as just being the monster that she became and what is often overlooked are the disastrous events that took place beforehand. Much like rape victims are often victim blamed or even shamed.</p>
+        </div>
+      </div>
+
+  </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

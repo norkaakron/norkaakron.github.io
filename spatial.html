@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="responsivetopnav.css">
+  <link rel="stylesheet" href="imagesvid.css">
+</head> 
+<body>
+
+  <!-- CSS Flexbox (to create a responsive layout) -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Norka | akroN</a>
+    <a href="webdev.html">Web Design</a>
+    <a href="videoedit.html">Video Edit</a>
+    <a href="illustration.html">Illustration</a>
+    <a href="animation.html">Animation</a>
+    <a href="photography.html">Photography</a>
+    <a href="spatial.html" class="active">Spatial</a>
+    <a href="shows.html">Shows</a>
+    <a href="bio.html">Bio</a>
+    <a href="contact2.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+    <div class="jumbotron text-center">
+      <h1>Spatial</h1>
+    </div>
+  
+<div class="container">
+
+    <!--Photo Grid -->
+
+    <h3>Lost Wax Casting</h3>
+    <div class="row">
+      <div class="column">
+        <img src="images/peru01.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="images/peru02.jpg" style="width:100%">
+      </div>
+      
+      <div class="column">
+        <img src="images/peru03.jpg" style="width:100%">
+      </div>
+    </div>
+
+    <h3>Metal Work</h3>
+    <div class="row">
+      <div class="column">
+      <img src="images/skeleton01.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+      <img src="images/skeleton02.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+      <img src="images/skeleton03.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+      <img src="images/skeleton04.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

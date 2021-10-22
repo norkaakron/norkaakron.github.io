@@ -1,0 +1,34 @@
+<style>
+body {
+  background-color: f2e6ff;
+  color: black;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3  {
+	text-indent: 50px;
+}
+
+h4  {
+	text-align: center;
+}
+
+div {
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-align: justify;
+}
+
+p  {
+	text-indent: 50px;
+	text-align: center;
+	text-align: justify;
+}
+</style>

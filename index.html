@@ -1,21 +1,76 @@
 <!DOCTYPE html>
-<html>
-
-<title>Norka's Sketch</title>
-<style>
-	h1{color:blue;}
-	p{color:red;}
-
-</style>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="responsivetopnav.css">
+  <link rel="stylesheet" href="fontformat.css">
+</head> 
 <body>
 
-<h1>Hello World!</h1>
-<h2>Hello World!</h2>
-<h3>Hello World!</h3>
-<h4>Hello World!</h4>
-<h5>Hello World!</h5>
-<h6>Hello World!</h6>
-<p>This is a paragraph. My name is Norka! :)</p>
-<iframe src="sketch.html"></iframe>
+<!-- Top Navigation Menu -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Norka | akroN</a>
+    <a href="webdev.html">Web Design</a>
+    <a href="videoedit.html">Digital Video</a>
+    <a href="illustration.html">Illustration</a>
+    <a href="animation.html">Animation</a>
+    <a href="photography.html">Photography</a>
+    <!-- <a href="spatial.html">Spatial</a> -->
+    <a href="shows.html">Shows</a>
+    <a href="bio.html">Bio</a>
+    <a href="contact2.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<div class="jumbotron text-center">
+    <h1>Artist Statement</h1>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10">
+      <pre>
+        My work examines the disparate and sometimes difficult emotions along with 
+      critiquing contemporary issues in society such as: traditional beauty standards, 
+      women’s rights, and environmental issues. I work with in a wide variety of mediums: 
+      traditional drawing, animation, photography, sculpture, AR/VR, creative coding, and many more. 
+      I especially love to mix a variety of different mediums to break the rules of what can be combined. 
+      
+      Imaginary figures taking form out of abstract shapes. What exists in these animations 
+      can only exist here. My characters are a glimpse of another dimension: sometimes tranquil, 
+      sometimes deranged. Some eyes droop with a lifetime of sorrow others are merely gaping holes. 
+      Some characters lack a soul while other characters overflow with emotion. I have a Glitch Art piece, 
+      Lancome, that splices Julia Robert’s face in a Lancome Beauty Cream ad. We see beauty ads all the 
+      time which use photoshop to an extreme to sell something unattainable. These false images along with 
+      over-the-top claims are a misleading attempt to sell the image of perfection. I chose to break this ad 
+      from the inside out. I made this advertisement defective much like its defective scheme of deceiving the public.
+ 
+      Many of the contemporary issues I put into my work deal with issues of equality, being a typical woman I have already 
+      dealt with a fair share of oppression. We have come a long way from the days 
+      of the women’s suffrage movement, however the fight is far from over and women’s voices must be heard. 
+      I want men and women to experience my work and come out with a sense of awareness or simply a reminder of 
+      important issues that still affect us everyday.
+      </pre>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 </body>
 </html>
