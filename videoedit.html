@@ -7,10 +7,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
   <link rel="stylesheet" href="responsivetopnav.css">
   <link rel="stylesheet" href="imagesvid.css">
   <link rel="stylesheet" href="fontformat.css">
+  <link rel="stylesheet" href="basiclayout.css">
 <style>
+
+/*h1 {
+  font-family: 'Codystar', Garamond, serif;
+}*/
+
 * {
   box-sizing: border-box;
 }
@@ -23,7 +30,7 @@
 
 /* Create four equal columns */
 .column {
-  flex: 25%;
+  flex: 50%;
   padding: 20px;
 }
 
@@ -40,6 +47,9 @@
     flex-direction: column;
   }
 }
+
+
+
     </style>
 </head> 
 
@@ -49,23 +59,23 @@
 
 <!-- Top Navigation Menu -->
   <div class="topnav" id="myTopnav">
-    <a href="index.html">Norka | akroN</a>
-    <a href="webdev.html">Web Design</a>
-    <a href="videoedit.html" class="active">Digital Video</a>
-    <a href="illustration.html">Illustration</a>
-    <a href="animation.html">Animation</a>
-    <a href="photography.html">Photography</a>
+    <a href="index.html" class="p1">Norka | akroN</a>
+    <a href="webdev.html" class="p1">Web Design</a>
+    <a href="videoedit.html" class="p1 active">Digital Video</a>
+    <a href="illustration.html" class="p1">Illustration</a>
+    <a href="animation.html" class="p1">Animation</a>
+    <a href="photography.html" class="p1">Photography</a>
     <!-- <a href="spatial.html">Spatial</a> -->
-    <a href="shows.html">Shows</a>
-    <a href="bio.html">Bio</a>
-    <a href="contact2.html">Contact</a>
+    <a href="shows.html" class="p1">Shows</a>
+    <a href="bio.html" class="p1">Bio</a>
+    <a href="contact2.html" class="p1">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 
   <div class="jumbotron text-center">
-    <h1>Digital Video</h1>
+    <h1 style="font-size:5vw;">Digital Video</h1>
   </div>
   
 
@@ -74,7 +84,7 @@
 <!--   <div class="row"> -->
 
     <div class="col-sm-12">
-      <h4>I work with Adobe Premiere Pro, After Effects CC, and Photoshop to create unique digital video films. The films I create are a variety of short trailers, films, and abstract works.</h4>
+      <p class="p1">I work with Adobe Premiere Pro, After Effects CC, and Photoshop to create unique digital video films. The films I create are a variety of short trailers, films, and abstract works.</p>
     </div>
 
 
@@ -86,20 +96,19 @@
           <a href="https://drive.google.com/file/d/15P-1_bLxeZ9TUgx002T57sWgnPIksQX6/view?usp=sharing">
             <img src="images/skullface00.png" alt="Reflections" align="center" style="width:510px;height:300px;">
           </a>
-          <h3>Glitch Skull</h3>
-          <p>A glitchy surprise!</p>
+          <h3 class="p1">Glitch Skull</h3>
 
           <a href="https://youtube/haZ05j-4emM">
             <img src="images/reflec.JPG" alt="Reflections" style="width:510px;height:300px;">
           </a>
-          <h3>Reflections</h3>
-          <p>A lighthearted piece playing with a photograph of a figure standing in contemplation by a riverside.</p>
+          <h3 class="p1">Reflections</h3>
+          <p class="p1">A lighthearted piece playing with a photograph of a figure standing in contemplation by a riverside.</p>
 
           <a href="https://drive.google.com/file/d/1lU3cNpbwBFDC9ZdE6RyU4705Fh-8EZ8T/view?usp=sharing">
             <img class="img-responsive" src="images/wedding.png" alt="Wedding Title" style="width:510px;height:300px;">
           </a>
-          <h3>Wedding Video</h3>
-          <p>A client wanted a cohesive wedding video consisting of previously shot footage, photographs, and a blooper reel.</p>
+          <h3 class="p1">Wedding Video</h3>
+          <p class="p1">A client wanted a cohesive wedding video consisting of previously shot footage, photographs, and a blooper reel.</p>
 
         </div>
 
@@ -107,14 +116,14 @@
           <a href="https://youtube/BQp6cTSwHFg">
             <img class="img-responsive" src="images/night.JPG" alt="A Night In" style="width:510px;height:300px;">
           </a>
-          <h3>A Night in Trailer</h3>
-          <p>A trailer for a suspenseful short film. The tone is set for what at first seems to be a “typical night in.”</p>
+          <h3 class="p1">A Night in Trailer</h3>
+          <p class="p1">A trailer for a suspenseful short film. The tone is set for what at first seems to be a “typical night in.”</p>
 
           <a href="https://youtube/FzCZDsuJQ9M">
             <img class="img-responsive" src="images/potions.JPG" alt="Potions" style="width:510px;height:300px;">
           </a>
-          <h3>Potions</h3>
-          <p>An ominous man takes a sampling of different potions trying to find “the one.”</p>
+          <h3 class="p1">Potions</h3>
+          <p class="p1">An ominous man takes a sampling of different potions trying to find “the one.”</p>
 
         </div>
 
@@ -122,6 +131,8 @@
     </div>
   </div>
 </div>
+
+
 
 <script>
 function myFunction() {
@@ -133,6 +144,10 @@ function myFunction() {
   }
 }
 </script>
+
+<div class="footer">
+  <p class="p2">© 2021 Norka's Portfolio | website by Norka Espinal</p>
+</div>
 
 </body>
 </html>

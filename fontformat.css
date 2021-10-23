@@ -1,18 +1,37 @@
-<style>
+/*Regular text*/
+.p1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Centered regular text*/
+.p2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Codystar', Merriweather, serif;
+  text-shadow: 0 0 4px #FF0000, 0 0 8px #0000FF;
+}
+
 body {
   background-color: f2e6ff;
   color: black;
 }
 
 h1 {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
 
 h3  {
-	text-indent: 50px;
+	
 }
 
 h4  {
@@ -28,7 +47,4 @@ div {
 
 p  {
 	text-indent: 50px;
-	text-align: center;
-	text-align: justify;
 }
-</style>
