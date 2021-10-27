@@ -7,22 +7,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
   <link rel="stylesheet" href="responsivetopnav.css">
   <link rel="stylesheet" href="fontformat.css">
+  <link rel="stylesheet" href="basiclayout.css">
+<style>
+.allButFooter {
+  min-height: calc(100vh - 40px);
+}
+</style>
 </head> 
 <body>
 
+<div class="allButFooter">
 	<div class="topnav" id="myTopnav">
-  	<a href="index.html">Norka | akroN</a>
-		<a href="webdev.html">Web Design</a>
-		<a href="videoedit.html">Digital Video</a>
-		<a href="illustration.html">Illustration</a>
-		<a href="animation.html">Animation</a>
-		<a href="photography.html">Photography</a>
+  	<a href="index.html" class="p1">Norka | akroN</a>
+		<a href="webdev.html" class="p1">Web Design</a>
+		<a href="videoedit.html" class="p1">Digital Video</a>
+		<a href="illustration.html" class="p1">Illustration</a>
+		<a href="animation.html" class="p1">Animation</a>
+		<a href="photography.html" class="p1">Photography</a>
 		<!-- <a href="spatial.html">Spatial</a> -->
-		<a href="shows.html">Shows</a>
-		<a href="bio.html">Bio</a>
-		<a href="contact2.html" class="active">Contact</a>
+		<a href="shows.html" class="p1">Shows</a>
+		<a href="bio.html" class="p1">Bio</a>
+		<a href="contact2.html" class="active p1">Contact</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		  <i class="fa fa-bars"></i>
 		</a>
@@ -65,6 +73,12 @@ function myFunction() {
   }
 }
 </script>
+</div>
+
+
+<div class="footer">
+  <p class="p2">© 2021 Norka's Portfolio | website by Norka Espinal</p>
+</div>
 
 </body>
 </html>

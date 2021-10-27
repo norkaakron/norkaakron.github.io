@@ -5,35 +5,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
   <link rel="stylesheet" href="responsivetopnav.css">
   <link rel="stylesheet" href="fontformat.css">
+  <link rel="stylesheet" href="basiclayout.css">
+<style>
+.allButFooter {
+  min-height: calc(100vh - 40px);
+}
+</style>
 </head> 
 <body>
 
 <!-- Top Navigation Menu -->
   <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Norka | akroN</a>
-    <a href="webdev.html">Web Design</a>
-    <a href="videoedit.html">Digital Video</a>
-    <a href="illustration.html">Illustration</a>
-    <a href="animation.html">Animation</a>
-    <a href="photography.html">Photography</a>
+    <a href="index.html" class="active p1">Norka | akroN</a>
+    <a href="webdev.html" class="p1">Web Design</a>
+    <a href="videoedit.html" class="p1">Digital Video</a>
+    <a href="illustration.html" class="p1">Illustration</a>
+    <a href="animation.html" class="p1">Animation</a>
+    <a href="photography.html" class="p1">Photography</a>
     <!-- <a href="spatial.html">Spatial</a> -->
-    <a href="shows.html">Shows</a>
-    <a href="bio.html">Bio</a>
-    <a href="contact2.html">Contact</a>
+    <a href="shows.html" class="p1">Shows</a>
+    <a href="bio.html" class="p1">Bio</a>
+    <a href="contact2.html" class="p1">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 
 <div class="jumbotron text-center">
-    <h1>Artist Statement</h1>
+    <h1 style="font-size:5vw;">Artist Statement</h1>
   </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-10">
+    <div class="col-sm-10 allButFooter">
       <pre>
         My work examines the disparate and sometimes difficult emotions along with 
       critiquing contemporary issues in society such as: traditional beauty standards, 
@@ -71,6 +79,10 @@ function myFunction() {
   }
 }
 </script>
+
+<div class="footer">
+  <p class="p2">© 2021 Norka's Portfolio | website by Norka Espinal</p>
+</div>
 
 </body>
 </html>
